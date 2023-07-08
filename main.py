@@ -5,7 +5,6 @@ BACKGROUND_COLOR = "#B1DDC6"
 current_word = {}
 to_learn = {}
 
-
 # _____________________READ FILE________________________________________
 try:
     data = pandas.read_csv("words_to_learn.csv")
